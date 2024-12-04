@@ -3,6 +3,9 @@ import threading
 import time
 import random
 
+#Light mode is utter dog shit
+customtkinter.set_appearance_mode("dark")
+
 app = customtkinter.CTk()
 app.title('Gacha Gambling')
 app.geometry("480x480")
